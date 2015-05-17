@@ -30,7 +30,7 @@ dateDownloaded <- date(); dateDownloaded
 ```
 
 ```
-## [1] "Sun May 17 15:52:56 2015"
+## [1] "Sun May 17 16:06:35 2015"
 ```
 
 ```r
@@ -178,7 +178,7 @@ panderOptions('table.split.table', Inf)
 pander(md.pattern(dat.a))         # identify missig data pattern
 ```
 
-Quitting from lines 118-121 (PA1_template.Rmd) 
+Quitting from lines 119-122 (PA1_template.Rmd) 
 Error in pander(md.pattern(dat.a)) : could not find function "md.pattern"
 Calls: <Anonymous> ... withCallingHandlers -> withVisible -> eval -> eval -> pander
 

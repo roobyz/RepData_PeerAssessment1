@@ -89,7 +89,7 @@ download.file(fileUrl, destfile = zipFile, method = &quot;curl&quot;)
 
 # check file
 dateDownloaded &lt;- date(); dateDownloaded</code></pre>
-<pre><code>## [1] &quot;Sun May 17 15:52:56 2015&quot;</code></pre>
+<pre><code>## [1] &quot;Sun May 17 16:06:35 2015&quot;</code></pre>
 <pre class="r"><code>unzip(zipFile, exdir=&quot;./&quot;)</code></pre>
 <pre class="r"><code>library(reshape2)
 library(dplyr)</code></pre>
@@ -196,7 +196,7 @@ grid(nx=24)</code></pre>
 ##     sleep</code></pre>
 <pre class="r"><code>panderOptions('table.split.table', Inf)
 pander(md.pattern(dat.a))         # identify missig data pattern</code></pre>
-<p>Quitting from lines 118-121 (PA1_template.Rmd) Error in pander(md.pattern(dat.a)) : could not find function “md.pattern” Calls: <Anonymous> … withCallingHandlers -&gt; withVisible -&gt; eval -&gt; eval -&gt; pander</p>
+<p>Quitting from lines 119-122 (PA1_template.Rmd) Error in pander(md.pattern(dat.a)) : could not find function “md.pattern” Calls: <Anonymous> … withCallingHandlers -&gt; withVisible -&gt; eval -&gt; eval -&gt; pander</p>
 <p><strong><em>To impute the missing step values, I used the MICE (Multivariate Imputation by Chained Equations) package. This method seemed to be rather straightforward and clear.</em></strong></p>
 <pre class="r"><code>library(mice)</code></pre>
 <pre><code>## Loading required package: Rcpp
