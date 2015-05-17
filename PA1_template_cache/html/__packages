@@ -1,0 +1,13 @@
+base
+reshape2
+dplyr
+pander
+stringr
+ggplot2
+gridExtra
+colorspace
+data.table
+VIM
+Rcpp
+lattice
+mice
